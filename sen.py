@@ -157,7 +157,7 @@ def generate_hash(text: str, algo="sha256") -> str:
 # ------------------- PAGE CONFIG -------------------
 st.set_page_config(page_title="PRO MAILER ENCRYPT - BULK MODE", layout="wide")
 
-st.markdown("<h1 style='text-align: center; color: #00ff41;'>MAGULUS V1.3-BETA | BULK + FAILOVER</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #00ff41;'>KRITOS SENDER V.1</h1>", unsafe_allow_html=True)
 
 # Initialize session state
 if "html_content_editor" not in st.session_state:
